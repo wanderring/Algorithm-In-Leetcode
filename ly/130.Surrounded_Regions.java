@@ -17,7 +17,10 @@ X X X X
 X O X X
 Explanation:
 
-Surrounded regions shouldn’t be on the border, which means that any 'O' on the border of the board are not flipped to 'X'. Any 'O' that is not on the border and it is not connected to an 'O' on the border will be flipped to 'X'. Two cells are connected if they are adjacent cells connected horizontally or vertically.
+Surrounded regions shouldn’t be on the border, which means that any 'O' on the border
+of the board are not flipped to 'X'. Any 'O' that is not on the border and it is not
+connected to an 'O' on the border will be flipped to 'X'. Two cells are connected if
+they are adjacent cells connected horizontally or vertically.
 
 本来一直没思路，想了一段时间决定换一种方法，从边上开始把O的字符搜索出来写入protect，成功beat 100%
 */
